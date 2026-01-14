@@ -1,0 +1,97 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+.venv*
+venv*
+.env*
+pythonenv*
+
+# FastAPI / Uvicorn logs and runtime files
+*.log
+uvicorn.error.log
+uvicorn.access.log
+gunicorn.error.log
+gunicorn.access.log
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env.*
+!.env.example          # Keep template files
+
+# Testing and coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.pytest_cache/
+.pytest_cache/
+coverage/
+tests/__pycache__/
+
+# Build and distribution
+build/
+dist/
+*.egg
+*.egg-info/
+*.eggs/
+MANIFEST
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.sublime-*
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Database (if using local SQLite for dev/testing)
+*.sqlite3
+*.db
+*.db-journal
+*.sql
+
+# Dependency management
+Pipfile.lock
+poetry.lock
+requirements.txt.lock   # if you generate locked files
+
+# Docker / container-related (optional, if not using Docker ignore these)
+Dockerfile*
+docker-compose*
+*.dockerignore
+
+# macOS / Windows junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
+~*
+*.~
